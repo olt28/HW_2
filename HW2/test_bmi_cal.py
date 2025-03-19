@@ -30,7 +30,7 @@ def test_boundaries():
     assert bmiCAT(30) == ("Category: Obese")
 
 def test_shift_bounds():
-    assert bmi_calculation(208.4, 70) == (29.9)
-    assert bmiCAT(30) == ("Category: Obese")
+    assert bmi_calculation(107.2, 64) == (18.4)
+    assert bmiCAT(18.5) == ("Category: Normal Weight")
 
 
